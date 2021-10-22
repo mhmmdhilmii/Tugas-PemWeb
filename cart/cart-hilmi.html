@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href= />
+  <link rel="shortcut icon" href="img/cart.png">
+  <title>Cart</title>
+</head>
+
+<body style="max-width: 100%; border: 1px solid black; margin: auto; @media only screen and (max-width: 600px);">
+  <header style="background-color: lightgray">
+    <nav style="display: flex; align-items: center; padding: 10px; border-bottom: 1px solid black">
+      <ul class="logo" style="margin-right: 50px; display: flex; list-style-type: none; gap: 10px">
+        <li>
+          <i class="bi bi-square-fill"></i>
+          <a href="">Muhammmad Hilmi Shofwan</a>
+        </li>
+      </ul>
+      <ul class="menu-ul" style="display: flex; list-style-type: none; gap: 10px">
+        <li>
+          <a href="/">Beranda</a> |
+        </li>
+        <li>
+          <a href="/events">Flash Sale</a>
+        </li>
+      </ul>
+      <ul class="icon-ul"
+        style="margin-left: auto; display: flex; align-items: center; list-style-type: none; gap: 10px">
+        <li>
+          <i class="bi bi-search"></i>
+        </li>
+        <li class="cart" style="display: flex; gap: 10px; align-items: center">
+          <i class="bi bi-cart-fill"></i>
+          <img src="cart-png.png" alt="" width="25px" height="27px">
+          <p>Cart (1)</p>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container" style="display: flex; gap: 20px; margin-top: 100px; padding: 10px">
+    <main style="width: 60%">
+      <h1>Your Cart</h1>
+      <table style="width: 100%; border-collapse: collapse">
+        <thead style="border-top: 1px solid black; border-bottom: 1px solid black">
+          <tr>
+            <td class="col-head">Item</td>
+            <td class="col-head">Price</td>
+            <td class="col-head">Quantity</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img-tshirt" style="display: flex; align-items: center">
+              <img width="250px" src="Velg RCB Matic.png" style="display: flex; align-items: center" />
+              <p style="margin-left: 20px;">
+                Velg RCB vario 125-150<br />
+                Size 14, 16, 17
+              </p>
+            </td>
+            <td>
+              <b>Rp.1.500.000</b>
+            </td>
+            <td>
+              <select name="" id="">
+                <option value="Choose 1">1</option>
+                <option value="Choose 2">2</option>
+                <option value="Choose 3">3</option>
+                <option value="Choose 4">4</option>
+                <option value="Choose 5">5</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="col-head" colspan="3" align="right"
+              style="border-top: 1px solid black; border-bottom: 1px solid black">Subtotal: <b>Rp.1.500.000</b></td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <aside style="width: 40%; background-color: lightgray; padding: 10px; display: grid; align-items: center">
+      <h2>Summary ( 1 item )</h2>
+      <table style="width: 100%">
+        <tr style="padding: 10px 0">
+          <td style="padding: 10px 0">Subtotal</td>
+          <td align="right">Rp.1.500.000</td>
+        </tr>
+        <tr style="padding: 10px 0">
+          <td style="padding: 10px 0">Shipping</td>
+          <td align="right">-</td>
+        </tr>
+        <tr style="padding: 10px 0">
+          <td style="padding: 10px 0">Est. Taxes</td>
+          <td align="right">-</td>
+        </tr>
+        <tr style="padding: 10px 0">
+          <td style="padding: 10px 0">Total</td>
+          <td align="right">Rp.1.500.000</td>
+        </tr>
+      </table>
+      <a style="color: white; font-size: 20px; display: flex; justify-content: center; background-color: rgba(81, 10, 173, 0.945); width: 100%; text-decoration: none; padding: 10px 0"
+        class="btn-checkout" href="checkout.html">CHECKOUT</a>
+    </aside>
+  </div>
+  <footer style="margin-top: 100px; border-top: 1px solid black; padding: 20px; display: grid; gap: 10px">
+    <div class="baris" style="display: flex; gap: 10px">
+      <a href="">Muhammad Hilmi Shofwan</a> |
+      <a href="">Beranda</a> |
+      <a href="">Flash Sale</a>
+      <a style="margin-left: auto">Thanks For Order!</a>
+    </div>
+    <div class="baris" style="display: flex; gap: 10px">
+      <img src="bri.png" width="50px">
+      <img src="mandiri.png" width="80px">
+      <img src="bca.png" width="80px">
+      <div class="input-subscribe" style="display: flex; align-items: center; margin-left: auto; font-weight: bolder">
+        <input style="font-weight: bolder; height: 20px" type="text" placeholder="Enter Email" />
+        <p style="background-color: rgb(131, 126, 126)">Subscribe</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
